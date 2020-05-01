@@ -1,7 +1,7 @@
 package day31_BulkOperations;
 import java.util.Arrays;
 import java.util.ArrayList;
-public class A06_RemoveDuplicates {public static void main(String[] args) {
+public class A06_RemoveDuplicates_WUT {public static void main(String[] args) {
 
 
     ArrayList<Integer> list = new ArrayList<>();
