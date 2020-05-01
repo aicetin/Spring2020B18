@@ -1,6 +1,6 @@
 package day26_MethodOverLoading;
 
-public class A01_Frequency {
+public class A01_Frequency_WUT {
      /*
      1. write a return method called frequency that accepts two parameters: string str and char ch,
      the method returns the frequency of the ch from the str as an int
