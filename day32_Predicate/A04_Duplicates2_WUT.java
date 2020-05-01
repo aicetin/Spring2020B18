@@ -1,7 +1,7 @@
 package day32_Predicate;
 import java.util.ArrayList;
 import java.util.Arrays;
-public class A04_Duplicates2 {  /*
+public class A04_Duplicates2_WUT {  /*
     write a program that can return the duplicated values from an ArrayList of String
 		Ex:
 			list: {"A", "B", "A", "C", "D"};
