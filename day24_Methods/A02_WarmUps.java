@@ -9,7 +9,7 @@ package day24_Methods;
             calculate(10, 2, '&') ==> Invalid operator
             NOTE: The method MUST take three arguments when it's called
     3. write a method that can identify if a string is palindrome
-            ex: palindrom("level")  ==> true
+            ex: palindrome("level")  ==> true
                 palindrome("Cybertek") ==> false
  */
 import java.util.Scanner;
