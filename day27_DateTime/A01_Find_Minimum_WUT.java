@@ -1,6 +1,6 @@
 package day27_DateTime;
 
-public class A01_Find_Minimum {
+public class A01_Find_Minimum_WUT {
     /*
     1. write a return method that can return the minimum number from an int array
 	2. write a return method that can return the minimum number from a double array

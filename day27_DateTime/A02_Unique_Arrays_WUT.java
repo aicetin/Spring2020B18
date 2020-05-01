@@ -1,6 +1,6 @@
 package day27_DateTime;
 
-public class A02_Unique_Arrays {
+public class A02_Unique_Arrays_WUT {
     /*
     3. write a method that can print out the unique elements from an int array
 					Ex: {1,1,2,3,3} ==> 2
