@@ -1,6 +1,6 @@
 package day30_ArrayList;
 import java.util.Arrays;
-public class A01_SumOfDigits {
+public class A01_SumOfDigits_WUT {
      /*
     1. write a program that can return the sum of all the digits from a string
             ex:

@@ -1,6 +1,6 @@
 package day30_ArrayList;
 import java.util.ArrayList;
-public class A04_CombineTwoArrays {
+public class A04_CombineTwoArrays_WUT {
     /*
     4. write a program that can combine two String arrays into one arrayList
             ex:
