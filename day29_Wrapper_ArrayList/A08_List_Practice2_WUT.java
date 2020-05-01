@@ -2,7 +2,7 @@ package day29_Wrapper_ArrayList;
 import Resources.Library;
 import java.util.ArrayList;
 
-public class A08_List_Practice2 {
+public class A08_List_Practice2_WUT {
     /*
         1. create a list of Integers
         2. add 5 Integers to it
