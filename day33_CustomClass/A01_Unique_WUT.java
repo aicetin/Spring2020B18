@@ -19,15 +19,10 @@ public class A01_Unique_WUT {
      */
 
     public static void main(String[] args) {
-
         ArrayList<Integer> list = new ArrayList<>();
-
-        list.addAll( Arrays.asList(1,1,2,3,4,5,5) );
-
-        list.removeIf( p -> Collections.frequency(list, p) > 1 );  // if the frequnecy of object is greater than one, we remove them
-
+        list.addAll(Arrays.asList(1,1,2,3,4,5,5));
+        list.removeIf(p-> Collections.frequency(list, p)> 1); // if the frequency of object is grater than one, we remote them
         System.out.println(list);
-
 
 
         // [1,1,5,5]
