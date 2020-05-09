@@ -12,6 +12,5 @@ returns a new String array with {"bob jones", "joe smith"}
 public class Combine_to_full_name {
 
 
-
-    }
+}
 
