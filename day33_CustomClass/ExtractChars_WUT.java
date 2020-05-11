@@ -2,17 +2,27 @@ package day33_CustomClass;
 
 import java.util.ArrayList;
 
-public class A04_ExtractChars2_WUT {
+public class ExtractChars_WUT {
+      /*
+    3. write a program that can extract the sepecial characters, digits and letters from a string and stores them into seperate ArrayLists of Character:
+            ex:
+                str = "ABCD123$%#@&456EFG!";
+                list1: {$, %, #, @, &, !}
+                list2: {A, B, C, D, E, F, G}
+                list3: {1, 2, 3, 4, 5, 6}
+        DO NOT USE LAMBDA
+     */
+
     public static void main(String[] args) {
+
         String  str = "ABCD123$%#@&456EFG!";
+        char[] arr = str.toCharArray();
 
         ArrayList<Character> letters = new ArrayList<>();  // isLetter()
         ArrayList<Character> digits = new ArrayList<>();
         ArrayList<Character> specialChars = new ArrayList<>();
 
-        for(int i= 0; i < str.length(); i++){
-            char each =  str.charAt(i);
-
+        for(char each : arr ){
             if( Character.isLetter(each) ){
                 letters.add(each);
             }else if(Character.isDigit(each)){
@@ -23,12 +33,17 @@ public class A04_ExtractChars2_WUT {
 
         }
 
+
         System.out.println(letters);
         System.out.println(digits);
         System.out.println(specialChars);
 
 
 
+
     }
+
+
+
 
 }

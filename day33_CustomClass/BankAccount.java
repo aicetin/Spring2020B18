@@ -1,6 +1,6 @@
 package day33_CustomClass;
 
-public class A11_BankAccount {
+public class BankAccount {
      /*
     practice task:
     create a custom class for bank account

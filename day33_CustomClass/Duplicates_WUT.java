@@ -15,7 +15,7 @@ import java.util.LinkedHashSet;
               3. DO NOT use any sort method
               4. Use predicate and collections methods only
  */
-public class A02_Duplicates_WUT {
+public class Duplicates_WUT {
     public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>();

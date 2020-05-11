@@ -3,7 +3,7 @@ package day33_CustomClass;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class A05_ExtractChars3_WUT {
+public class ExtractChars3_WUT {
     public static void main(String[] args) {
         String  str = "ABCD123$%#@&456EFG!";
         char[] arr = str.toCharArray();

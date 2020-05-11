@@ -3,21 +3,21 @@ package day33_CustomClass;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class A10_catObjects {
+public class catObjects {
     public static void main(String[] args) {
-        A09_Cat cat1 = new A09_Cat();
+        Cat cat1 = new Cat();
         cat1.setCatInfo("Siemes", "White",2, "Sasha");
 
         // System.out.println( cat1 ); // Sasha, breed is Siemes, color is  White,  2 years old
 
-        A09_Cat cat2 = new A09_Cat();
+        Cat cat2 = new Cat();
         cat2.setCatInfo("Scottish", "Beige", 7,"Bobo" );
 
-        A09_Cat cat3 = new A09_Cat();
+        Cat cat3 = new Cat();
         cat3.setCatInfo("Calico","brown-white",6,"Cinnamon");
 
 
-        ArrayList<A09_Cat> catList = new ArrayList<>();
+        ArrayList<Cat> catList = new ArrayList<>();
         catList.addAll(Arrays.asList(cat1, cat2, cat3) );
 
         for(int i = 0; i < catList.size(); i++){

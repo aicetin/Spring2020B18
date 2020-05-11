@@ -1,8 +1,8 @@
 package day33_CustomClass;
 
-public class A07_CarObjects {
+public class CarObjects {
     public static void main(String[] args) {
-        A06_Car car1 = new A06_Car();
+        Car car1 = new Car();
         car1.Brand = "BMW";
         car1.model = "X5";
         car1.year = 2020;
@@ -19,7 +19,7 @@ public class A07_CarObjects {
         car1.getCarInfo();
 
         System.out.println("========================================");
-        A06_Car car2 = new A06_Car();
+        Car car2 = new Car();
         car2.Brand = "Toyota";
         car2.model = "Corolla";
         car2.year = 2020;
@@ -39,7 +39,7 @@ public class A07_CarObjects {
 
 
 
-        A06_Car car3 = new A06_Car();
+        Car car3 = new Car();
         car3.Brand = "Mercedes";
         car3.model = "C Class";
         car3.year = 2020;
@@ -57,7 +57,7 @@ public class A07_CarObjects {
 
 
 
-        A06_Car[] cars = {car1, car2, car3};
+        Car[] cars = {car1, car2, car3};
 
         cars[0].getCarInfo();
         cars[1].getCarInfo();

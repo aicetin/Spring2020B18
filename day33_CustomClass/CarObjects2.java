@@ -3,13 +3,13 @@ package day33_CustomClass;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class A08_CarObjects2 {
+public class CarObjects2 {
     public static void main(String[] args) {
-        A06_Car car1 = new A06_Car();
+        Car car1 = new Car();
         car1.setCarInfo("BMW", "X6", 2020, "White");
         car1.getCarInfo();
 
-        A06_Car car2 = new A06_Car();
+        Car car2 = new Car();
         car2.setCarInfo("Toyota", "Corolla", 2020, "Red");
         /*
         car2.Brand = "Toyota";
@@ -20,12 +20,12 @@ public class A08_CarObjects2 {
 
         car2.getCarInfo();
 
-        A06_Car car3 = new A06_Car();
+        Car car3 = new Car();
         car3.setCarInfo("Audi", "Q7", 2019, "Gray");
         car3.getCarInfo();
 
         System.out.println("======================================================");
-        A06_Car[] cars = {car1, car2, car3};
+        Car[] cars = {car1, car2, car3};
 
         for(int i = 0; i < cars.length; i++){
             cars[i].getCarInfo();
@@ -33,7 +33,7 @@ public class A08_CarObjects2 {
 
         System.out.println("======================================================");
 
-        for(A06_Car eachCar : cars){
+        for(Car eachCar : cars){
             eachCar.getCarInfo();
         }
 

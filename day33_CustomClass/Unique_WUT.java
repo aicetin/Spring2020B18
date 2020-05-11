@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class A01_Unique_WUT {
+public class Unique_WUT {
      /*
     1. write a program that can return the unique objects from a anArray List of Integers
             Ex:

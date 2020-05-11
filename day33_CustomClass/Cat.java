@@ -7,7 +7,7 @@ cat class:
         sleep(), eat(), drink()
  */
 
-public class A09_Cat {
+public class Cat {
     String breed;
     String color;
     int age;

@@ -1,8 +1,8 @@
 package day33_CustomClass;
 
-public class A12_CapitalOne {
+public class CapitalOne {
     public static void main(String[] args) {
-        A11_BankAccount Anna = new A11_BankAccount();
+        BankAccount Anna = new BankAccount();
         Anna.accountHolder = "Anna";
         Anna.accountNumber = 123456;
 
