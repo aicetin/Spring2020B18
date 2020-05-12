@@ -2,20 +2,20 @@ package day38_Constructors;
 
 public class dogObject {
     public static void main(String[] args) {
-        Dog dog1 = new Dog();
+        c04_Dog dog1 = new c04_Dog();
 
         System.out.println( dog1.name ); // unknown
         System.out.println( dog1.breed ); // unknown
         System.out.println( dog1.age ); // 0
 
         System.out.println("====================================");
-        Dog dog2 = new Dog("Husky");
+        c04_Dog dog2 = new c04_Dog("Husky");
         System.out.println( dog2.name ); // Husky
         System.out.println( dog2.breed ); // unknown
         System.out.println( dog2.age ); // 0
 
         System.out.println("====================================");
-        Dog dog3 = new Dog("Poodle", 4);
+        c04_Dog dog3 = new c04_Dog("Poodle", 4);
         System.out.println( dog3.name ); // Poodle
         System.out.println( dog3.breed ); // unknown
         System.out.println( dog3.age ); // 4
