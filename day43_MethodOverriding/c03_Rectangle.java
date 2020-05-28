@@ -26,7 +26,7 @@ public class c03_Rectangle extends c01_Shape {
 
     // override calculatePerimeter()
     public void calculatePerimeter(){
-        perimeter = 2 * (width + length);
+        perimeter = (width + length) * 2;
         System.out.println("Perimeter of the rectangle is: "+perimeter);
     }
 

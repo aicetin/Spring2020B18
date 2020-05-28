@@ -1,4 +1,5 @@
 package day43_MethodOverriding;
+
 /*
     to override method:
                         * can be done ONLY in SUB class (==> or it will get compile error)

@@ -12,11 +12,11 @@ public class c01_Shape {
     // calculateArea()
     public void calculateArea(){
         area =0;
-        System.out.println("Area of the shape: "+0);
+        System.out.println("Area of the shape: "+area);
     }
     public void calculatePerimeter(){
         perimeter=0;
-        System.out.println("Perimeter of the shape: "+0);
+        System.out.println("Perimeter of the shape: "+perimeter);
     }
 
 

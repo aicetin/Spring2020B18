@@ -25,7 +25,7 @@ public class c02_Circle extends c01_Shape {
 
     // override calculatePerimeter()
     public void calculatePerimeter(){
-        perimeter = 2 * radius * PI;
+        perimeter = radius * 2 * PI;
         System.out.println("Perimeter of the Circle is: "+perimeter);
     }
 }
