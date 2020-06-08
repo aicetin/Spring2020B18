@@ -1,6 +1,6 @@
 package day47_Abstraction;
 
-public class ClassNotes {
+public class Z_day47_ClassNotes {
     /*
     Abstract - hiding implementation details.
 THERE ARE ONLY TWO WAYS TO ACHIEVE ABSTRACTION:
