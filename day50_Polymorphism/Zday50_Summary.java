@@ -86,7 +86,7 @@ Encapsulation:
         - build super class and sub class
         - easy way to get rich by inheriting from super class
         - super class:  Only gives. Can not inherit anything from child class.
-        - sub class: can inherit visible variables and methods from super class (visible according to am) except cnstructor
+        - sub class: can inherit visible variables and methods from super class (visible according to am) except constructor
         - sub class uses "extends" keyword to inherit from super class: class A extends B{ }
         - sub class uses "implements" keyword to inherit from interface/interfaces: class A extends B implements C,D{  }
         - Inheritance is pre-condition for polymorphism and for overriding methods
