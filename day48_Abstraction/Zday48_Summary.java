@@ -1,6 +1,6 @@
 package day48_Abstraction;
 
-public class Z_Summary {
+public class Zday48_Summary {
     /*
     Abstraction:
             hiding the implementation details
