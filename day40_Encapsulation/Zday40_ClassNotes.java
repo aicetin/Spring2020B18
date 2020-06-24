@@ -21,7 +21,7 @@ Encapsulation: hiding the data
 
 
 		getter(Read ONLY): public instance method
-				  			return-type must mtach with instance variables' data type
+				  			return-type must match with instance variables' data type
 				  			no parameter
 				  			returning the private instance variable
 
