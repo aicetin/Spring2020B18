@@ -39,8 +39,8 @@ ArrayList:  multiple threads can get access to ArrayList to execute at the same 
 Vector:     multiple threads can get access to Vector to execute one by one ==> we achieve thread safety
             disadvantage is : synchronized is slower
             Only time Vector is preferred to be used when you have multi-thread
-            it is extended by Stack(C) ==> Stack inherited from Vector
-Stack(C):   extends Vector(C)
+            it is extended by Stack(C) ==> Stack inherits from Vector
+Stack(C):   extends Vector(C) : LIFO
             Stack is also synchronized
             pop() method: Last in First out (only unique in the Stack class)
             pop() method: whatever object was added to stack ==> will be first to be removed
@@ -70,15 +70,40 @@ Set (I):
         Set is extended by SortedSet(I)
         SortedSet(I) is implemented by TreeSet(C) class
 TreeSet(C):
+        implements Set interface
         doesn't accept duplicates
-        sorts the objects  ==> it is designed for sorting
+        sorts the objects  ==> it is designed for sorting objects in ascending order
+        Does not accept null value
+        internally uses a TreeMap to store elements
+        implements NavigableSet interface, which extends SortedSet interface, which extends Set interface
+HashSet(C):
+        unordered collection containing unique elements
+        implements Set interface, backed by hash table (which is an instance of HashMap)
+        accepts null value
+        does not allow duplicates
+        class is not synchronized
+        does not keep same order
 null:
-        default vlue of all reference type
+        default value of all reference type
         does not refer to any object
         WebElement element;         // null
         String str;                 // null
-hashset :
-        doesn't accept nul ker
+Collection(I) :
+    /      |    \
+   /      |      \
+  /      |        \
+Set(I)   List(I)   Queue(I)
+Collection(I) is inherited by:      Set Interface
+                                    List Interface
+                                    Queue Interface
+Set(I) is inherited by:     HashSet Class
+                            LinkedHashSet Class
+                            TreeSet Class (inherits SortedSet interface)
+List(I) is inherited by:    ArrayList Class
+                            Vector Class
+                            LinkedList Class
+Queue(I) is inherited by:   LinkedList Class
+                            Priority Queue Class
  */
 
 

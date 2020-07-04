@@ -3,7 +3,7 @@ package day53_Iterator_Maps;
 import java.util.*;
 
 /*
-1. write a program that remove the duplicates fron an array of String
+1. write a program that remove the duplicates from an array of String
 	2. write a program that can remove the duplicates from an arrayList of String
 	3. what are the differences between List and Set
 			List:
@@ -45,7 +45,7 @@ public class c01_WarmUpTask_Collection {
         //    LinkedHashSet<String > st = new LinkedHashSet<>();
         // how can we add array elements int the st? using a loop
         // each of the values I wnt to add into this st:
-        // in collections each class has its own consttuctor that accepts any collection type
+        // in collections each class has its own constructor that accepts any collection type
         // Array is not a collection type. I can convert my array into a List
         // (List is a Collection) ( List extends Collection Interface)
         // So I can do the following:
